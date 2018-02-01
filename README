@@ -1,0 +1,87 @@
+This is the README file of IMForms project developed by ITC.
+
+CONTENTS
+        1. AUTHOR
+        2. PREREQUISITES
+        3. DIRECTORY STRUCTURE
+        4. USAGE
+        5. DOCUMENTATION
+
+1. AUTHOR
+
+Mary Antonyan
+Ruben Ghalayan
+Vachagan Hovhannisyan
+Smbat Dallakyan
+Liana Andreasyan
+
+Project Maintainer
+	Hasmik Kirakosyan
+	Nane Hambardzumyan
+
+
+2. PREREQUISITES
+
+        - Node.js at least 6.9.x
+        - npm at least 3.x.x
+        - Angular CLI
+        
+To install Node.js 8:
+
+ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+ sudo apt-get install -y nodejs
+
+To update npm:
+
+ npm install npm@latest -g
+
+To install the Angular CLI globally:
+
+ npm install -g @angular/cli
+
+
+3. DIRECTORY STRUCTURE
+
+IMForms/src/                 - All components, templates, styles, images, and anything else our app needs go here.
+IMForms/src/app/             - The main app directory. 
+IMForms/src/app/components   - Holds the app's different components.
+IMForms/src/app/services     - Holds services used in app.
+IMForms/src/app/common       - Hold app's main functionalities.
+IMForms/src/app/containers   - Holds components to bring the view together.
+IMForms/src/app/actions      - Holds actions
+IMForms/src/app/reducers     - Holds reducers
+IMForms/src/app/constants    - Holds app's constants used by actions and reducers.
+IMForms/src/assets           - Holds non angular data required by our app, for example stylesheets, images.
+IMForms/e2e/                 - There are End-to-End tests.
+
+server/bin/                  - Startup scripts directory.
+server/bin/www               - Startup script.
+server/app.js                - Application main entry point.
+server/package.json          - Serves dependecies of your application and its versions, makes the build reproducible.
+server/users/                - Holds users related controller and model.
+server/forms/                - Holds forms related controller and model.
+server/routes/               - Defines the application routing and responds to the client requests.
+
+Other directories and files help to build, test, maintain, document, and deploy the app. These files are located in the root level (next to src/).
+
+
+4. USAGE
+
+Install node modules
+package.json holds information that allows npm to identify the project dependencies and help install them with a single command.
+
+   npm install
+
+For running dev server use command:
+   
+   ng serve
+
+For more information about Angular CLI use ng help.
+
+For running node server use command:
+
+   npm start
+
+
+5. DOCUMENTATION
+TODO:
